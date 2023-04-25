@@ -19,4 +19,11 @@ public class Caneta {
     public void destampar(){
         this.tampada = false;
     }
+
+    public void rabiscar() {
+        if (tampada == true) {
+            System.out.println("Escreva");
+        }
+        System.out.println("Sua caneta esta tampada");
+    }
 }
